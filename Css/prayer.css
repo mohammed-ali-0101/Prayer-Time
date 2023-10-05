@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(45deg , #00ff5b , #0014ff);
+    direction: rtl;
+    height: 150vh;
+    font-family: 'Tajawal', sans-serif;
+}
+.name h1{
+    font-size: 60px;
+    margin-top: 15px;
+}
+.date{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.allCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    width: 170px;
+    height: 70%;
+    background-color: white;
+}
+.header{
+    font-size: 30px;
+    padding: 5px;
+    /* background-color: #00ff5b; */
+    background: linear-gradient(45deg , #00ff5b , #0014ff);
+    color: white;
+}
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 43.75px);
+    font-size: 30px;
+    color:#0014ff;
+   
+}
+.selectCity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+#selCity{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border-radius: 50px;
+    padding-right: 5px;
+    font-size: 18px;
+    background: none;
+    color: #18239a;
+    border: 1px solid white;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400px;
+    margin-top: 100px;
+}

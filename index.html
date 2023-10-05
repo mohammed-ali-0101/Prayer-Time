@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/prayer.css">
+    <title>Prayer Time</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="./node_modules/axios/dist/axios.min.js">
+<link rel="stylesheet" href="./node_modules/axios/dist/axios.js">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!-- city name -->
+     <div style="color: white; padding: 0px 100px; margin-top: 50px;">
+        <div class="name">
+         <h1 id="cityName">دمشق</h1>
+         <h5  class="date" id="readable">الجمعة 2/4/2023</h5>
+        </div>
+     </div>
+     <hr style="width: 90%;">
+
+     <!--end city name -->
+      
+     <div class="allCard" style="padding: 0px 100px; margin-top: 60px; height: 300px">
+         
+         <div class="card">
+            <div class="header">الفجر</div>
+            <div class="time" id="Fajr-time"></div>
+         </div>
+         <div class="card">
+            <div class="header">الشروق</div>
+            <div class="time" id="Sunrise-time"></div>
+         </div>
+         <div class="card">
+            <div class="header">الظهر</div>
+            <div class="time" id="Dhuhr-time"></div>
+         </div>
+         <div class="card">
+            <div class="header">العصر</div>
+            <div class="time" id="Asr-time"></div>
+         </div>
+         <div class="card">
+            <div class="header">المغرب</div>
+            <div class="time" id="Maghrib-time"></div>
+         </div>
+         <div class="card">
+            <div class="header">العشاء</div>
+            <div class="time" id="Isha-time"></div>
+         </div>
+     </div>
+
+     <div class="selectCity">
+      <select name="" id="selCity"></select>
+     </div>
+
+
+   
+ <script src="./node_modules/axios/dist/axios.min.js"></script>
+  <script src="prayer.js"></script>
+</body>
+</html>
